@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.doublefang.customview2.MainActivity">
+
+
+    <!--wrap_content: view的宽度的影响因素：1. 内容的宽度  2. 父控件的宽度-->
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="200dp">-->
+
+        <!--<com.doublefang.customview2.CustomView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="#0f0"-->
+            <!--/>-->
+
+    <!--</FrameLayout>-->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:onClick="click"
+        android:background="#f00"/>
+
+
+</RelativeLayout>
